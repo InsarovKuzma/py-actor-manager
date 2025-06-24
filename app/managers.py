@@ -3,7 +3,6 @@ import sqlite3
 
 from models import Actor
 
-
 class ActorManager:
     def __init__(self):
         base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
